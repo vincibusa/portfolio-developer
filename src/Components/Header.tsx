@@ -19,7 +19,7 @@ const Header: React.FC<HeaderProps> = () => {
         </NavLink>
         <div onClick={toggleClass} className="cursor-pointer ">
           <svg
-            className="stroke-dark-heading dark:stroke-white md:hidden"
+            className="stroke-dark-heading  md:hidden"
             width="25"
             height="20"
             viewBox="0 0 16 13"
@@ -38,7 +38,7 @@ const Header: React.FC<HeaderProps> = () => {
       <nav
         className={` ${!isOpen ? "hidden" : null} text-center md:flex justify-between`}
       >
-        <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10 ">
+        <ul className=" font-medium md:flex items-center md:space-x-5 md:mr-10 ">
           <li className="pb-1 md:pb-0 hover:scale-110 hover:text-gray-600">
             <NavLink  to="/" onClick={toggleClass}>
               Home
@@ -70,7 +70,7 @@ const Header: React.FC<HeaderProps> = () => {
           <li className="hover:scale-110 ">
             <a href={linkdein} target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                className=" fill-dark-heading"
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"
@@ -84,7 +84,7 @@ const Header: React.FC<HeaderProps> = () => {
           <li className="hover:scale-110 ">
             <a href={github} target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                className=" fill-dark-heading"
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"
