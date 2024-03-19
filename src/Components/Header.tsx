@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { logos, socialMediaUrl } from "../Details";
+import {  socialMediaUrl } from "../Details";
 
 interface HeaderProps {}
 
 const Header: React.FC<HeaderProps> = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const { linkdein, github, twitter } = socialMediaUrl;
+  const { linkdein, github, } = socialMediaUrl;
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };

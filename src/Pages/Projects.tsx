@@ -1,15 +1,15 @@
-import React, { FC } from "react";
-import Project from "../Components/Project";
-import { projectDetails } from "../Details";
+import  { FC } from "react";
+// import Project from "../Components/Project";
+// import { projectDetails } from "../Details";
 
-interface ProjectDetails {
-  title: string;
-  image: string;
-  description: string;
-  techstack: string;
-  previewLink: string;
-  githubLink: string;
-}
+// interface ProjectDetails {
+//   title: string;
+//   image: string;
+//   description: string;
+//   techstack: string;
+//   previewLink: string;
+//   githubLink: string;
+// }
 
 const Projects: FC = () => {
   return (
